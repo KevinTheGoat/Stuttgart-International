@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Stuttgart International | Award-Winning Porsche Restorations</title>
+  <meta name="description" content="Explore our portfolio of award-winning Porsche restorations. From classic 356s to modern 911s, see the precision craftsmanship of Stuttgart International.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gallery | Stuttgart International">
+  <meta property="og:description" content="Award-winning Porsche restorations and collision repairs. View our portfolio of precision craftsmanship.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          Stuttgart <span>International</span>
+        </a>
+
+        <div class="nav__links" id="navLinks">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="services.html" class="nav__link">Services</a>
+          <a href="gallery.html" class="nav__link nav__link--active">Gallery</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="contact.html" class="nav__link">Contact</a>
+        </div>
+
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Our Portfolio</span>
+      <h1 class="page-header__title">Gallery</h1>
+      <p class="page-header__subtitle">
+        Explore our collection of award-winning restorations and precision repairs.
+        Each project showcases our commitment to excellence.
+      </p>
+    </div>
+  </header>
+
+  <!-- Before/After Feature -->
+  <section class="section" style="background: var(--color-charcoal);">
+    <div class="container">
+      <div class="section-header section-header--center reveal">
+        <span class="eyebrow">Transformation</span>
+        <h2 class="section-header__title">Before & After</h2>
+        <p class="section-header__text">
+          Drag the slider to see the transformation. This is what precision restoration looks like.
+        </p>
+      </div>
+
+      <div class="compare-slider reveal" id="compareSlider">
+        <img src="images/gallery/before-after/before.jpg" alt="Before restoration" class="compare-slider__image compare-slider__image--before">
+        <img src="images/gallery/before-after/after.jpg" alt="After restoration" class="compare-slider__image compare-slider__image--after">
+        <div class="compare-slider__handle" id="compareHandle">
+          <span class="iconify" data-icon="mdi:arrow-left-right" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--color-obsidian); font-size: 20px;"></span>
+        </div>
+        <span class="compare-slider__label compare-slider__label--before">Before</span>
+        <span class="compare-slider__label compare-slider__label--after">After</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery section">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="gallery__filters reveal">
+        <button class="gallery__filter gallery__filter--active" data-filter="all">All Work</button>
+        <button class="gallery__filter" data-filter="award-winners">Award Winners</button>
+        <button class="gallery__filter" data-filter="classic-restorations">Classic Restorations</button>
+        <button class="gallery__filter" data-filter="facility">Our Facility</button>
+        <button class="gallery__filter" data-filter="paint-work">Paint Department</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery__grid" id="galleryGrid">
+        <!-- Award Winners -->
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - National Award Winner" data-meta="Complete Restoration">
+          <img src="images/gallery/award-winners/930-turbo-01.jpg" alt="930 Turbo restoration" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">National Award Winner</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Detail View" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-02.jpg" alt="930 Turbo detail" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Detail View</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Interior" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-03.jpg" alt="930 Turbo interior" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Precision Detail</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Engine Bay" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-04.jpg" alt="930 Turbo engine" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Engine Restoration</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Final Detail" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-05.jpg" alt="930 Turbo final" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Final Detail</span>
+          </div>
+        </div>
+
+        <!-- Classic Restorations -->
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 Speedster" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-01.jpg" alt="Porsche 356" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Classic Restoration</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Interior" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-02.jpg" alt="Porsche 356 interior" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Interior Detail</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Engine" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-03.jpg" alt="Porsche 356 engine" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Engine Bay</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Detail" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-04.jpg" alt="Porsche 356 detail" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Chrome Detail</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Side Profile" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-05.jpg" alt="Porsche 356 side" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Side Profile</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Rear View" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-06.jpg" alt="Porsche 356 rear" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Rear View</span>
+          </div>
+        </div>
+
+        <!-- Facility -->
+        <div class="gallery__item" data-category="facility" data-title="Aluminum Repair Room" data-meta="Certified Facility">
+          <img src="images/gallery/facility/aluminum-room-01.jpg" alt="Aluminum repair room" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Aluminum Room</span>
+            <span class="gallery__item-meta">Certified Facility</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="facility" data-title="Aluminum Welding Station" data-meta="Certified Facility">
+          <img src="images/gallery/facility/aluminum-room-02.jpg" alt="Aluminum welding" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Welding Station</span>
+            <span class="gallery__item-meta">Aluminum Certified</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="facility" data-title="Car-O-Liner Frame Bench" data-meta="Precision Equipment">
+          <img src="images/gallery/facility/bench-01.jpg" alt="Frame bench" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Frame Bench</span>
+            <span class="gallery__item-meta">Car-O-Liner</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="facility" data-title="Celette Measuring System" data-meta="Precision Equipment">
+          <img src="images/gallery/facility/celette-03.jpg" alt="Celette system" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Celette System</span>
+            <span class="gallery__item-meta">3D Measuring</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="facility" data-title="Measurement Equipment" data-meta="Precision Equipment">
+          <img src="images/gallery/facility/measurement-equip.jpg" alt="Measurement equipment" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Digital Scanning</span>
+            <span class="gallery__item-meta">Precision Measuring</span>
+          </div>
+        </div>
+
+        <!-- Paint Work -->
+        <div class="gallery__item" data-category="paint-work" data-title="Paint Booth" data-meta="Climate Controlled">
+          <img src="images/gallery/paint-work/paint-booth.jpg" alt="Paint booth" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Paint Booth</span>
+            <span class="gallery__item-meta">Climate Controlled</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="paint-work" data-title="Mixing Room" data-meta="Color Matching">
+          <img src="images/gallery/paint-work/mixing-room-01.jpg" alt="Mixing room" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Mixing Room</span>
+            <span class="gallery__item-meta">Color Matching</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="paint-work" data-title="Paint Materials" data-meta="OEM Approved">
+          <img src="images/gallery/paint-work/mixing-room-02.jpg" alt="Paint materials" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Paint Materials</span>
+            <span class="gallery__item-meta">OEM Approved</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="paint-work" data-title="Color Library" data-meta="Factory Colors">
+          <img src="images/gallery/paint-work/mixing-room-03.jpg" alt="Color library" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">Color Library</span>
+            <span class="gallery__item-meta">Factory Codes</span>
+          </div>
+        </div>
+
+        <!-- More Award Winners -->
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Concours Ready" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-06.jpg" alt="930 Turbo concours" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Concours Ready</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="award-winners" data-title="930 Turbo - Restoration Complete" data-meta="Award Winner">
+          <img src="images/gallery/award-winners/930-turbo-07.jpg" alt="930 Turbo complete" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">930 Turbo</span>
+            <span class="gallery__item-meta">Restoration Complete</span>
+          </div>
+        </div>
+
+        <!-- More Classic Restorations -->
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Completed" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-07.jpg" alt="356 completed" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Restoration Complete</span>
+          </div>
+        </div>
+
+        <div class="gallery__item" data-category="classic-restorations" data-title="Porsche 356 - Final Detail" data-meta="Classic Restoration">
+          <img src="images/gallery/classic-restorations/356-08.jpg" alt="356 final" loading="lazy">
+          <div class="gallery__item-overlay">
+            <span class="gallery__item-title">356 Speedster</span>
+            <span class="gallery__item-meta">Final Detail</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox">
+      <span class="iconify" data-icon="mdi:close"></span>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">
+      <span class="iconify" data-icon="mdi:chevron-left"></span>
+    </button>
+    <div class="lightbox__content">
+      <img src="" alt="" class="lightbox__image" id="lightboxImage">
+      <div class="lightbox__info">
+        <h3 class="lightbox__title" id="lightboxTitle"></h3>
+        <p class="lightbox__meta" id="lightboxMeta"></p>
+      </div>
+    </div>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">
+      <span class="iconify" data-icon="mdi:chevron-right"></span>
+    </button>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-section__content reveal">
+        <span class="eyebrow">Start Your Project</span>
+        <h2 class="mb-lg">Ready to Restore Your Porsche?</h2>
+        <p class="mb-xl" style="font-size: var(--text-lg); color: var(--color-brushed-silver); max-width: 600px; margin-inline: auto;">
+          Whether it's collision repair or a complete restoration, our team is ready
+          to bring your vision to life.
+        </p>
+        <div class="flex flex--center gap-lg" style="flex-wrap: wrap;">
+          <a href="tel:+19545635011" class="btn btn--primary btn--large">
+            <span class="iconify" data-icon="mdi:phone"></span>
+            (954) 563-5011
+          </a>
+          <a href="contact.html" class="btn btn--secondary btn--large">
+            Request Estimate
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo">
+          Stuttgart <span>International</span>
+        </a>
+
+        <div class="footer__links">
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="gallery.html" class="footer__link">Gallery</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer__copy">
+        <p>&copy; 2026 Stuttgart International Auto Body Collision. All rights reserved.</p>
+        <p style="margin-top: var(--space-sm);">1055 NW 51st Ct, Fort Lauderdale, FL 33309</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
