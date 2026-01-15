@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "author": "Richard C.",
+    "rating": 5,
+    "date": "4 months ago",
+    "text": "Exceptional Craftsmanship, Service and Pride is what you can expect at Stuttgart International Auto Body! Maurice, the owner along with his sister and mother run the best Porsche Certified & Approved Body Shop in the U.S.A.",
+    "highlight": "Best Porsche Certified Body Shop in the U.S.A."
+  },
+  {
+    "id": 2,
+    "author": "Noah C.",
+    "rating": 5,
+    "date": "11 months ago",
+    "text": "After a bad accident, they went the absolute DISTANCE for my car. Amazing service, amazing people. If you have a Porsche and go ANYWHERE else you are robbing yourself, they are the best in all of Florida.",
+    "highlight": "The best in all of Florida"
+  },
+  {
+    "id": 3,
+    "author": "Joe C.",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "Stuttgart is absolutely the best place to have your Porsche or any high-end automobile fixed. They even repair frames, very rare, especially in South Florida. Daniel is absolutely the best – very wired into the high-end car community, personable, smart with great communication skills.",
+    "highlight": "Absolutely the best place"
+  },
+  {
+    "id": 4,
+    "author": "Wayne C.",
+    "rating": 5,
+    "date": "3 months ago",
+    "text": "I've used Stuttgart twice, over the course of a few years, and have been quite happy with the outstanding quality of their work. Most recently, I brought in a Cayenne that needed the front bumper replaced - and they turned around the job in about 1 week! Super fast with a super perfect quality finish.",
+    "highlight": "Outstanding quality of their work"
+  },
+  {
+    "id": 5,
+    "author": "Jackie P.",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "I couldn't be happier with the work done by this Porsche collision company! From start to finish, their customer service was outstanding, and the staff truly went above and beyond. They made me feel like part of the family.",
+    "highlight": "Made me feel like part of the family"
+  },
+  {
+    "id": 6,
+    "author": "Charles M.",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "My first impression was where is the body shop? The shop was so clean I thought it was a car dealership, all the cars super high-end. The service was just as good.",
+    "highlight": "So clean I thought it was a dealership"
+  },
+  {
+    "id": 7,
+    "author": "Ducarmel A.",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "My experience at Stuttgart was extremely positive. The entire process was handled professionally and Dan remained in communication with me. My vehicle was returned to me and was immaculate.",
+    "highlight": "Extremely positive experience"
+  },
+  {
+    "id": 8,
+    "author": "Sally M.",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "This is my second experience with Stuttgart International Auto. I'm seasonal and mainly live in Chicago, I waited until I came back to have my body work done by Stuttgart! They do excellent work and all the family and people that work there are wonderful.",
+    "highlight": "Waited to come back to Florida for Stuttgart"
+  }
+]
