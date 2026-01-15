@@ -85,11 +85,10 @@ export default function SectionHeader({
       >
         {title}
       </h2>
-      <div
-        className={`header-line w-20 h-0.5 bg-gradient-to-r from-brand-gold to-brand-gold/30 ${
-          align === 'center' ? 'mx-auto' : ''
-        }`}
-      />
+      <div className={`header-line flex gap-1 ${align === 'center' ? 'mx-auto' : ''}`}>
+        <div className="w-8 h-0.5 bg-brand-red" />
+        <div className="w-12 h-0.5 bg-brand-gold" />
+      </div>
       {description && (
         <p
           className={`header-desc font-body text-lg max-w-2xl leading-relaxed ${

@@ -97,12 +97,15 @@ export default function ServicesPreview() {
               to="/services"
               className="service-card group relative p-8 lg:p-10 bg-brand-black/50 border border-brand-steel/10 hover:border-brand-gold/30 transition-all duration-500"
             >
+              {/* Red top accent bar on hover */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-brand-red scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+
               {/* Corner Accents */}
-              <div className="absolute top-0 left-0 w-8 h-8 border-t border-l border-brand-gold/20 group-hover:border-brand-gold/60 transition-colors duration-500" />
+              <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-brand-red/40 group-hover:border-brand-red transition-colors duration-500" />
               <div className="absolute bottom-0 right-0 w-8 h-8 border-b border-r border-brand-gold/20 group-hover:border-brand-gold/60 transition-colors duration-500" />
 
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center bg-brand-gold/10 text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-black transition-all duration-500">
+                <div className="flex-shrink-0 w-16 h-16 flex items-center justify-center bg-brand-gold/10 text-brand-gold group-hover:bg-brand-red group-hover:text-brand-white transition-all duration-500">
                   {service.icon}
                 </div>
                 <div className="flex-grow">

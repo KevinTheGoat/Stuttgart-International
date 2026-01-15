@@ -77,8 +77,8 @@ export default function Navbar() {
     <nav
       ref={navRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
-          ? 'bg-brand-black/95 backdrop-blur-md py-4 shadow-lg shadow-black/20'
+        isScrolled || isOpen
+          ? 'bg-brand-black/95 backdrop-blur-md py-4 shadow-lg shadow-black/20 border-b border-brand-red/30'
           : 'bg-transparent py-6'
       }`}
     >

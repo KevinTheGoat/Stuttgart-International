@@ -40,12 +40,11 @@
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient-to-r from-brand-gold via-brand-red to-brand-gold bg-clip-text text-transparent;
-    background-size: 200% auto;
+    @apply text-brand-gold;
   }
 
   .line-separator {
-    @apply h-px bg-gradient-to-r from-transparent via-brand-red/40 to-transparent;
+    @apply h-px bg-brand-gold/40;
   }
 
   .glass-card {
@@ -80,7 +79,7 @@
     @apply relative inline-flex items-center justify-center px-8 py-4 font-body font-medium tracking-wider text-sm uppercase;
     @apply bg-brand-gold text-brand-black;
     @apply transition-all duration-300 ease-out;
-    @apply hover:bg-brand-white hover:text-brand-black;
+    @apply hover:bg-brand-red hover:text-brand-white;
     @apply focus:outline-none focus:ring-2 focus:ring-brand-gold/50 focus:ring-offset-2 focus:ring-offset-brand-black;
   }
 
@@ -88,8 +87,17 @@
     @apply relative inline-flex items-center justify-center px-8 py-4 font-body font-medium tracking-wider text-sm uppercase;
     @apply bg-transparent text-brand-white border border-brand-gold/60;
     @apply transition-all duration-300 ease-out;
-    @apply hover:bg-brand-gold/10 hover:border-brand-gold;
+    @apply hover:bg-brand-red/20 hover:border-brand-red hover:text-brand-white;
     @apply focus:outline-none focus:ring-2 focus:ring-brand-gold/50;
+  }
+
+  /* Red accent button */
+  .btn-red {
+    @apply relative inline-flex items-center justify-center px-8 py-4 font-body font-medium tracking-wider text-sm uppercase;
+    @apply bg-brand-red text-brand-white;
+    @apply transition-all duration-300 ease-out;
+    @apply hover:bg-brand-gold hover:text-brand-black;
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-red/50 focus:ring-offset-2 focus:ring-offset-brand-black;
   }
 
   /* Noise texture overlay */

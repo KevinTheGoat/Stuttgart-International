@@ -11,8 +11,8 @@ export default {
         'brand-charcoal': '#1a1a1a',
         'brand-steel': '#2d2d2d',
         'brand-silver': '#c0c0c0',
-        'brand-gold': '#d4af37',
-        'brand-red': '#c41e3a',
+        'brand-gold': '#CDA434',
+        'brand-red': '#B12B28',
         'brand-white': '#f5f5f5',
       },
       fontFamily: {

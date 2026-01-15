@@ -53,12 +53,16 @@ export default function CTASection() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/60 to-brand-black" />
       </div>
 
+      {/* Red accent stripe - Porsche inspired */}
+      <div className="absolute left-0 top-0 bottom-0 w-1 md:w-2 bg-brand-red z-10" />
+
       {/* Content */}
       <div className="container-custom relative z-10">
         <div className="cta-content max-w-3xl">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 mb-6">
-            <span className="w-12 h-px bg-brand-gold" />
+            <span className="w-6 h-px bg-brand-red" />
+            <span className="w-6 h-px bg-brand-gold" />
             <span className="font-body text-xs tracking-[0.25em] uppercase text-brand-gold">
               Schedule Your Visit
             </span>

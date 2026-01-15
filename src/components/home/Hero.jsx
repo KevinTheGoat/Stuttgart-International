@@ -107,17 +107,18 @@ export default function Hero() {
         <div className="hero-content max-w-4xl mx-auto">
           {/* Badge */}
           <div className="hero-badge inline-flex items-center gap-3 mb-8 px-6 py-2 border border-brand-gold/40 bg-brand-black/40 backdrop-blur-sm">
-            <span className="w-2 h-2 bg-brand-red rounded-full animate-pulse" />
+            <span className="w-2 h-2 bg-brand-gold rounded-full animate-pulse" />
             <span className="font-body text-xs tracking-[0.25em] uppercase text-brand-gold">
               Porsche Approved Collision Center
             </span>
           </div>
 
           {/* Title */}
-          <h1 className="hero-title font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold leading-[0.95] mb-6">
-            <span className="text-brand-white">Precision</span>
+          <h1 className="hero-title font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold leading-[1.1] mb-6">
+            <span className="text-brand-white">Where </span>
+            <span className="text-brand-gold">Perfection</span>
             <br />
-            <span className="text-gradient">Redefined</span>
+            <span className="text-brand-white">is the standard</span>
           </h1>
 
           {/* Subtitle */}
@@ -156,11 +157,14 @@ export default function Hero() {
         <span className="font-body text-xs tracking-widest uppercase text-brand-silver/60">
           Scroll
         </span>
-        <div className="w-px h-12 bg-gradient-to-b from-brand-red to-transparent" />
+        <div className="w-px h-12 bg-gradient-to-b from-brand-gold to-transparent" />
       </div>
 
-      {/* Decorative Elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-gold/30 to-transparent" />
+      {/* Decorative Elements - Porsche-inspired stripe */}
+      <div className="absolute bottom-0 left-0 right-0">
+        <div className="h-1 bg-brand-red" />
+        <div className="h-px bg-brand-gold/50" />
+      </div>
     </section>
   )
 }

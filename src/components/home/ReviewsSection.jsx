@@ -75,13 +75,13 @@ export default function ReviewsSection() {
 
           {/* Google Reviews Link */}
           <a
-            href="https://www.google.com/maps/place/Stuttgart+International"
+            href="https://www.google.com/maps/place/Stuttgart+International+Auto/@26.190557,-80.1608959,16z/data=!4m6!3m5!1s0x88d903c4f44aacab:0x735e67dace5a29d7!8m2!3d26.1905522!4d-80.158321!16s%2Fg%2F1tfrsqk2"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden lg:flex items-center gap-3 text-brand-silver hover:text-brand-gold transition-colors duration-300 mb-12"
           >
             <div className="flex items-center gap-1">
-              <span className="font-display text-3xl font-semibold text-brand-gold">5.0</span>
+              <span className="font-display text-3xl font-semibold text-brand-gold">4.8</span>
               <StarRating rating={5} />
             </div>
             <span className="font-body text-sm">on Google</span>
@@ -105,7 +105,7 @@ export default function ReviewsSection() {
               <div className="h-full p-8 bg-brand-black/60 border border-brand-steel/10 hover:border-brand-gold/20 transition-colors duration-500">
                 {/* Quote Icon */}
                 <svg
-                  className="w-10 h-10 text-brand-gold/30 mb-6"
+                  className="w-10 h-10 text-brand-red/50 mb-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -149,12 +149,12 @@ export default function ReviewsSection() {
         {/* Mobile Google Reviews Link */}
         <div className="lg:hidden mt-8 text-center">
           <a
-            href="https://www.google.com/maps/place/Stuttgart+International"
+            href="https://www.google.com/maps/place/Stuttgart+International+Auto/@26.190557,-80.1608959,16z/data=!4m6!3m5!1s0x88d903c4f44aacab:0x735e67dace5a29d7!8m2!3d26.1905522!4d-80.158321!16s%2Fg%2F1tfrsqk2"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 text-brand-silver hover:text-brand-gold transition-colors duration-300"
           >
-            <span className="font-display text-2xl font-semibold text-brand-gold">5.0</span>
+            <span className="font-display text-2xl font-semibold text-brand-gold">4.8</span>
             <StarRating rating={5} />
             <span className="font-body text-sm">on Google</span>
           </a>

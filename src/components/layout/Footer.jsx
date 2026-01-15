@@ -48,7 +48,7 @@ export default function Footer() {
               precision European auto body repair.
             </p>
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-brand-red rounded-full animate-pulse" />
+              <span className="w-2 h-2 bg-brand-gold rounded-full animate-pulse" />
               <span className="font-body text-xs text-brand-gold tracking-wider uppercase">
                 Porsche Certified
               </span>
@@ -149,7 +149,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-6">
               <a
-                href="https://www.google.com/maps/place/Stuttgart+International"
+                href="https://www.google.com/maps/place/Stuttgart+International+Auto/@26.190557,-80.1608959,16z/data=!4m6!3m5!1s0x88d903c4f44aacab:0x735e67dace5a29d7!8m2!3d26.1905522!4d-80.158321!16s%2Fg%2F1tfrsqk2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-xs text-brand-silver/60 hover:text-brand-gold transition-colors duration-300"
@@ -165,6 +165,28 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Site Credit */}
+      <div className="border-t border-brand-steel/10 bg-brand-black">
+        <div className="container-custom py-4">
+          <p className="font-body text-[10px] text-brand-silver/40 text-center">
+            Website designed & developed by{' '}
+            <a
+              href="mailto:kevinmoreau@kevco.co"
+              className="text-brand-gold/60 hover:text-brand-gold transition-colors duration-300"
+            >
+              Kevin Moreau
+            </a>
+            {' '}— Want a site like this?{' '}
+            <a
+              href="mailto:kevinmoreau@kevco.co"
+              className="text-brand-gold/60 hover:text-brand-gold transition-colors duration-300"
+            >
+              kevinmoreau@kevco.co
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Layout from './components/layout/Layout'
+import IntroAnimation from './components/layout/IntroAnimation'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Gallery from './pages/Gallery'
@@ -18,8 +19,25 @@ function ScrollToTop() {
 }
 
 function App() {
+  const [showIntro, setShowIntro] = useState(true)
+  const location = useLocation()
+
+  // Only show intro on home page and first visit
+  useEffect(() => {
+    const hasSeenIntro = sessionStorage.getItem('hasSeenIntro')
+    if (hasSeenIntro || location.pathname !== '/') {
+      setShowIntro(false)
+    }
+  }, [location.pathname])
+
+  const handleIntroComplete = () => {
+    sessionStorage.setItem('hasSeenIntro', 'true')
+    setShowIntro(false)
+  }
+
   return (
     <>
+      {showIntro && <IntroAnimation onComplete={handleIntroComplete} />}
       <ScrollToTop />
       <div className="noise-overlay" aria-hidden="true" />
       <Layout>

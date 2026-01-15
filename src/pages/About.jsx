@@ -7,10 +7,10 @@ import SectionHeader from '../components/ui/SectionHeader'
 gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
-  { value: '35+', label: 'Years Experience' },
+  { value: '37+', label: 'Years Experience' },
   { value: '10K+', label: 'Vehicles Repaired' },
-  { value: '100%', label: 'Customer Satisfaction' },
-  { value: '5.0', label: 'Google Rating' },
+  { value: '100%', label: 'Commitment to Excellence' },
+  { value: '4.8', label: 'Google Rating' },
 ]
 
 const values = [
@@ -178,7 +178,10 @@ export default function About() {
       </section>
 
       {/* Story Section */}
-      <section ref={storyRef} className="section-padding bg-brand-charcoal">
+      <section ref={storyRef} className="section-padding bg-brand-charcoal relative">
+        {/* Left red accent stripe */}
+        <div className="absolute left-0 top-0 bottom-0 w-1 bg-brand-red hidden lg:block" />
+
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Content */}
@@ -237,7 +240,9 @@ export default function About() {
       </section>
 
       {/* Stats Section */}
-      <section ref={statsRef} className="py-20 bg-brand-gold">
+      <section ref={statsRef} className="py-20 bg-brand-gold relative">
+        {/* Red top border stripe */}
+        <div className="absolute top-0 left-0 right-0 h-2 bg-brand-red" />
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (

@@ -80,7 +80,7 @@ export default function GalleryPreview() {
                 </div>
 
                 {/* Corner Accent */}
-                <div className="absolute top-4 right-4 w-8 h-8 border-t border-r border-brand-gold/0 group-hover:border-brand-gold/60 transition-all duration-500" />
+                <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-brand-red/0 group-hover:border-brand-red transition-all duration-500" />
               </div>
             </Link>
           ))}
