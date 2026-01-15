@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "author": "Michael R.",
+    "rating": 5,
+    "date": "2024-11-15",
+    "vehicle": "2023 911 GT3",
+    "text": "Exceptional work on my GT3 after a minor incident. The attention to detail is remarkable - you literally cannot tell the car was ever damaged. Worth every penny for the peace of mind.",
+    "highlight": "The attention to detail is remarkable"
+  },
+  {
+    "id": 2,
+    "author": "Sarah K.",
+    "rating": 5,
+    "date": "2024-10-28",
+    "vehicle": "2022 Cayenne",
+    "text": "Stuttgart International handled my Cayenne's repair with complete professionalism. They coordinated with my insurance seamlessly and kept me informed throughout the entire process. The finished result exceeded my expectations.",
+    "highlight": "Complete professionalism"
+  },
+  {
+    "id": 3,
+    "author": "David L.",
+    "rating": 5,
+    "date": "2024-10-12",
+    "vehicle": "1987 930 Turbo",
+    "text": "Trusted them with my classic 930 Turbo for paint correction and minor bodywork. Their knowledge of air-cooled Porsches is encyclopedic. The car came back looking better than when it left the factory 37 years ago.",
+    "highlight": "Knowledge of air-cooled Porsches is encyclopedic"
+  },
+  {
+    "id": 4,
+    "author": "Jennifer M.",
+    "rating": 5,
+    "date": "2024-09-20",
+    "vehicle": "2024 Taycan",
+    "text": "Had concerns about finding a shop equipped to handle my Taycan's aluminum construction. Stuttgart International's dedicated aluminum facility gave me complete confidence. Flawless repair.",
+    "highlight": "Complete confidence"
+  },
+  {
+    "id": 5,
+    "author": "Robert T.",
+    "rating": 5,
+    "date": "2024-09-05",
+    "vehicle": "2021 718 Cayman GT4",
+    "text": "The team at Stuttgart International treats every car like it's their own. My GT4 was repaired using all OEM parts and the paint match is absolutely perfect. Highly recommend for any Porsche owner.",
+    "highlight": "Treats every car like it's their own"
+  },
+  {
+    "id": 6,
+    "author": "Anthony P.",
+    "rating": 5,
+    "date": "2024-08-18",
+    "vehicle": "2020 Panamera",
+    "text": "Third time using Stuttgart International over the years. Consistency in quality is what keeps me coming back. They've earned my trust with my Porsche vehicles.",
+    "highlight": "Consistency in quality"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "collision-repair",
+    "title": "Collision Repair",
+    "shortDesc": "Factory-certified collision repair for Porsche and premium European vehicles.",
+    "description": "Our Porsche-certified technicians perform structural repairs using OEM specifications and genuine parts. From minor fender damage to major collision reconstruction, we restore your vehicle to pre-accident condition with meticulous precision.",
+    "features": [
+      "Porsche Approved Collision Center certified",
+      "OEM parts and repair procedures",
+      "Computerized frame straightening",
+      "Advanced diagnostic systems",
+      "Lifetime warranty on repairs"
+    ],
+    "icon": "collision"
+  },
+  {
+    "id": "paint-refinishing",
+    "title": "Paint Refinishing",
+    "shortDesc": "Expert color matching and refinishing using Porsche-approved paint systems.",
+    "description": "Our state-of-the-art paint facility uses the latest waterborne paint technology and computerized color matching to achieve factory-perfect finishes. Every paint job undergoes rigorous quality control to ensure seamless integration with your vehicle's original finish.",
+    "features": [
+      "Computerized color spectrophotometer matching",
+      "Porsche-approved paint systems",
+      "Downdraft spray booth environment",
+      "Clear coat and ceramic coating options",
+      "Complete detail finishing"
+    ],
+    "icon": "paint"
+  },
+  {
+    "id": "aluminum-repair",
+    "title": "Aluminum Body Repair",
+    "shortDesc": "Specialized aluminum repair for modern Porsche and luxury vehicle construction.",
+    "description": "Modern Porsche vehicles utilize advanced aluminum construction requiring specialized equipment and training. Our dedicated aluminum repair facility prevents cross-contamination and ensures proper repairs to these sophisticated body structures.",
+    "features": [
+      "Dedicated aluminum-only repair area",
+      "Certified aluminum welding technicians",
+      "Specialized aluminum straightening equipment",
+      "Proper rivet and adhesive bonding",
+      "Corrosion prevention treatments"
+    ],
+    "icon": "aluminum"
+  },
+  {
+    "id": "frame-straightening",
+    "title": "Frame Straightening",
+    "shortDesc": "Precision frame and unibody repair using Celette measuring systems.",
+    "description": "Utilizing Celette bench systems with manufacturer specifications, we restore structural integrity to within factory tolerances. Our computerized measuring ensures your vehicle's geometry is perfectly aligned for safe driving dynamics.",
+    "features": [
+      "Celette dedicated bench systems",
+      "3D computerized measuring",
+      "Porsche-specific fixtures",
+      "Factory specification restoration",
+      "Pre and post-repair documentation"
+    ],
+    "icon": "frame"
+  },
+  {
+    "id": "glass-replacement",
+    "title": "Glass Services",
+    "shortDesc": "OEM glass replacement with proper ADAS calibration.",
+    "description": "Windshield replacement on modern vehicles requires precise installation and calibration of Advanced Driver Assistance Systems. We use only OEM glass and perform all necessary camera and sensor recalibrations.",
+    "features": [
+      "OEM glass installation",
+      "ADAS camera calibration",
+      "Proper urethane application",
+      "Water leak testing",
+      "Mobile service available"
+    ],
+    "icon": "glass"
+  },
+  {
+    "id": "detailing",
+    "title": "Detailing & Protection",
+    "shortDesc": "Premium detailing and paint protection services.",
+    "description": "Complete your repair with our professional detailing services. From paint correction to ceramic coating application, we offer comprehensive protection and finishing services to keep your Porsche looking showroom-new.",
+    "features": [
+      "Paint correction and polishing",
+      "Ceramic coating application",
+      "Interior deep cleaning",
+      "Leather conditioning",
+      "Engine bay detailing"
+    ],
+    "icon": "detail"
+  }
+]
