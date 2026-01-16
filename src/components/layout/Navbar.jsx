@@ -81,19 +81,20 @@ export default function Navbar() {
           ? 'bg-brand-black/95 backdrop-blur-md py-4 shadow-lg shadow-black/20 border-b border-brand-red/30'
           : 'bg-transparent py-6'
       }`}
+      style={{ paddingTop: `max(env(safe-area-inset-top), ${isScrolled || isOpen ? '1rem' : '1.5rem'})` }}
     >
-      <div className="container-custom">
-        <div className="flex items-center justify-between gap-4">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-12 max-w-7xl mx-auto">
+        <div className="flex items-center justify-between gap-3">
           {/* Logo */}
           <Link
             to="/"
             className="group relative z-10 flex-shrink-0"
           >
             <div className="flex flex-col">
-              <span className="font-display text-xl sm:text-2xl md:text-3xl font-semibold tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
+              <span className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight sm:tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
                 Stuttgart
               </span>
-              <span className="font-body text-[9px] sm:text-[10px] md:text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase text-brand-silver -mt-1">
+              <span className="font-body text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.35em] uppercase text-brand-silver -mt-1">
                 International
               </span>
             </div>

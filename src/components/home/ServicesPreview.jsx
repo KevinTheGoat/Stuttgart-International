@@ -54,17 +54,33 @@ export default function ServicesPreview() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from('.service-card', {
-        y: 60,
-        opacity: 0,
-        duration: 0.8,
-        stagger: 0.15,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 70%',
-        },
-      })
+      const cards = sectionRef.current?.querySelectorAll('.service-card')
+      if (!cards || cards.length === 0) return
+
+      // Use fromTo to ensure cards end up visible
+      gsap.fromTo(
+        cards,
+        { y: 60, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          stagger: 0.15,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 85%',
+          },
+        }
+      )
+
+      // Fallback: ensure cards are visible after 2 seconds regardless
+      setTimeout(() => {
+        cards.forEach((card) => {
+          card.style.opacity = '1'
+          card.style.transform = 'translateY(0)'
+        })
+      }, 2000)
     }, sectionRef)
 
     return () => ctx.revert()
