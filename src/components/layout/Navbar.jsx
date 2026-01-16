@@ -83,17 +83,17 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <Link
             to="/"
-            className="group relative z-10"
+            className="group relative z-10 flex-shrink-0"
           >
             <div className="flex flex-col">
-              <span className="font-display text-2xl md:text-3xl font-semibold tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
+              <span className="font-display text-xl sm:text-2xl md:text-3xl font-semibold tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
                 Stuttgart
               </span>
-              <span className="font-body text-[10px] md:text-xs tracking-[0.35em] uppercase text-brand-silver -mt-1">
+              <span className="font-body text-[9px] sm:text-[10px] md:text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase text-brand-silver -mt-1">
                 International
               </span>
             </div>

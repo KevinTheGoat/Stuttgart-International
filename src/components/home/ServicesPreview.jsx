@@ -139,7 +139,7 @@ export default function ServicesPreview() {
         </div>
 
         {/* View All Services Link */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-8 md:mt-12">
           <Link
             to="/services"
             className="inline-flex items-center gap-2 font-body text-sm tracking-wider uppercase text-brand-gold hover:text-brand-white transition-colors duration-300"
