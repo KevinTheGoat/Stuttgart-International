@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* iOS Safe Area Support */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .pt-safe {
+    padding-top: max(env(safe-area-inset-top), 1rem);
+  }
+}
+
 @layer base {
   * {
     @apply box-border;

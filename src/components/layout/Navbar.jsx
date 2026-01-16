@@ -58,30 +58,14 @@ export default function Navbar() {
     }
   }, [isOpen])
 
-  // Initial animation
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.from(navRef.current, {
-        y: -100,
-        opacity: 0,
-        duration: 1,
-        ease: 'power3.out',
-        delay: 0.2,
-      })
-    })
-
-    return () => ctx.revert()
-  }, [])
-
   return (
     <nav
       ref={navRef}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 pt-safe ${
         isScrolled || isOpen
-          ? 'bg-brand-black/95 backdrop-blur-md py-4 shadow-lg shadow-black/20 border-b border-brand-red/30'
-          : 'bg-transparent py-6'
+          ? 'bg-brand-black/95 backdrop-blur-md pb-4 shadow-lg shadow-black/20 border-b border-brand-red/30'
+          : 'bg-transparent pb-6'
       }`}
-      style={{ paddingTop: `max(env(safe-area-inset-top), ${isScrolled || isOpen ? '1rem' : '1.5rem'})` }}
     >
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 max-w-7xl mx-auto">
         <div className="flex items-center justify-between gap-3">
