@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import Layout from './components/layout/Layout'
 import IntroAnimation from './components/layout/IntroAnimation'
@@ -21,6 +21,16 @@ function ScrollToTop() {
 function App() {
   const [showIntro, setShowIntro] = useState(true)
   const location = useLocation()
+  const navigate = useNavigate()
+
+  // Handle redirect from 404.html (GitHub Pages SPA routing)
+  useEffect(() => {
+    const redirect = sessionStorage.getItem('redirect')
+    if (redirect) {
+      sessionStorage.removeItem('redirect')
+      navigate(redirect, { replace: true })
+    }
+  }, [navigate])
 
   // Only show intro on home page and first visit
   useEffect(() => {
