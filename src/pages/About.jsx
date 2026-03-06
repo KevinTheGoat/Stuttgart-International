@@ -6,8 +6,9 @@ import SectionHeader from '../components/ui/SectionHeader'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const FOUNDING_YEAR = 1983
 const stats = [
-  { value: '37+', label: 'Years Experience' },
+  { value: `${new Date().getFullYear() - FOUNDING_YEAR}+`, label: 'Years Experience' },
   { value: '10K+', label: 'Vehicles Repaired' },
   { value: '100%', label: 'Commitment to Excellence' },
   { value: '4.8', label: 'Google Rating' },
@@ -163,7 +164,7 @@ export default function About() {
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-semibold text-brand-white leading-tight mb-6">
               Craftsmanship
               <br />
-              <span className="text-brand-gold">Since 1989</span>
+              <span className="text-brand-gold">Since 1983</span>
             </h1>
 
             <p className="font-body text-lg text-brand-silver/80 leading-relaxed max-w-2xl">
@@ -194,7 +195,7 @@ export default function About() {
 
               <div className="space-y-6 font-body text-brand-silver/80 leading-relaxed">
                 <p>
-                  Founded in 1989, Stuttgart International was born from a passion for
+                  Founded in 1983, Stuttgart International was born from a passion for
                   German automotive engineering and a commitment to excellence. What began
                   as a small shop dedicated to Porsche repair has grown into South Florida's
                   premier Porsche Approved Collision Center.
@@ -226,8 +227,8 @@ export default function About() {
             <div className="story-image relative">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="/images/gallery/facility/bench-02.jpg"
-                  alt="Stuttgart International Facility"
+                  src="/images/gallery/facility/main-entrance.jpeg"
+                  alt="Stuttgart International Main Entrance"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -296,9 +297,10 @@ export default function About() {
             description="Equipped with the latest Porsche-approved repair systems and technology."
           />
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {[
-              '/images/gallery/facility/celette-01.jpg',
+              '/images/gallery/facility/car-o-liner-bench.jpg',
+              '/images/gallery/facility/celette-02.jpeg',
               '/images/gallery/facility/aluminum-room-01.jpg',
               '/images/gallery/paint-work/paint-booth.jpg',
               '/images/gallery/paint-work/mixing-room-01.jpg',

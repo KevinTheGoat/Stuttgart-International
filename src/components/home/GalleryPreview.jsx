@@ -55,7 +55,7 @@ export default function GalleryPreview() {
             >
               <div
                 className={`relative ${
-                  index === 0 ? 'aspect-square md:aspect-[4/3]' : 'aspect-square'
+                  index === 0 ? 'aspect-square' : 'aspect-square'
                 }`}
               >
                 <img

@@ -36,10 +36,10 @@ export default function Footer() {
             <Link to="/" className="inline-block mb-6">
               <div className="flex flex-col">
                 <span className="font-display text-3xl font-semibold tracking-wide text-brand-white">
-                  Stuttgart
+                  Stuttgart International
                 </span>
-                <span className="font-body text-xs tracking-[0.35em] uppercase text-brand-silver -mt-1">
-                  International
+                <span className="font-body text-xs tracking-[0.35em] uppercase text-brand-silver mt-0.5">
+                  Auto Body Collision
                 </span>
               </div>
             </Link>

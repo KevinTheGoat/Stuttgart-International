@@ -1,246 +1,309 @@
 {
   "categories": [
-    { "id": "all", "name": "All Projects" },
-    { "id": "award-winners", "name": "Award Winners" },
-    { "id": "classic-restorations", "name": "Classic Restorations" },
-    { "id": "before-after", "name": "Before & After" },
     { "id": "facility", "name": "Our Facility" },
-    { "id": "paint-work", "name": "Paint Work" }
+    { "id": "all", "name": "All Projects" },
+    { "id": "paint-work", "name": "Paint Work" },
+    { "id": "before-after", "name": "Before & After" },
+    { "id": "award-winners", "name": "Award Winners" },
+    { "id": "classic-restorations", "name": "Classic Restorations" }
   ],
   "images": [
     {
       "id": 1,
+      "src": "/images/gallery/facility/main-entrance.jpeg",
+      "category": "facility",
+      "title": "Main Entrance",
+      "description": "Stuttgart International main entrance."
+    },
+    {
+      "id": 2,
+      "src": "/images/gallery/facility/customer-waiting-room.jpg",
+      "category": "facility",
+      "title": "Customer Waiting Room",
+      "description": "Comfortable customer waiting area."
+    },
+    {
+      "id": 3,
+      "src": "/images/gallery/facility/office.jpg",
+      "category": "facility",
+      "title": "Office",
+      "description": "Front office."
+    },
+    {
+      "id": 4,
+      "src": "/images/gallery/facility/office-2.jpeg",
+      "category": "facility",
+      "title": "Office 2",
+      "description": "Office area."
+    },
+    {
+      "id": 5,
+      "src": "/images/gallery/facility/gene-office.jpg",
+      "category": "facility",
+      "title": "Gene Office",
+      "description": "Gene's office."
+    },
+    {
+      "id": 6,
+      "src": "/images/gallery/facility/inside-parking-lot.jpeg",
+      "category": "facility",
+      "title": "Inside Parking Lot",
+      "description": "Indoor parking and work area."
+    },
+    {
+      "id": 7,
+      "src": "/images/gallery/facility/parking-lot.jpg",
+      "category": "facility",
+      "title": "Parking Lot (GT3)",
+      "description": "Parking lot with GT3."
+    },
+    {
+      "id": 8,
+      "src": "/images/gallery/facility/por-car.jpg",
+      "category": "facility",
+      "title": "Por Car (Manthey)",
+      "description": "Porsche Manthey in the facility."
+    },
+    {
+      "id": 45,
+      "src": "/images/hero/Por carrera GT.jpg",
+      "category": "facility",
+      "title": "Porsche Carrera GT",
+      "description": "Porsche Carrera GT at the facility."
+    },
+    {
+      "id": 9,
+      "src": "/images/gallery/facility/celette-01.jpg",
+      "category": "facility",
+      "title": "Celette Bench — Structural Repair",
+      "description": "Vehicle undergoing structural repair on the Celette bench system."
+    },
+    {
+      "id": 10,
+      "src": "/images/gallery/facility/celette-02.jpeg",
+      "category": "facility",
+      "title": "Celette Bench — Frame Restoration",
+      "description": "Frame restoration in progress on the Celette platform."
+    },
+    {
+      "id": 11,
+      "src": "/images/gallery/facility/car-o-liner-bench.jpg",
+      "category": "facility",
+      "title": "Car-O-Liner Bench — Shop View",
+      "description": "Wide view of the Car-O-Liner bench area with vehicle in progress."
+    },
+    {
+      "id": 12,
+      "src": "/images/gallery/facility/car-o-liner-bench-02.jpg",
+      "category": "facility",
+      "title": "Car-O-Liner Bench — Close Up",
+      "description": "Close-up view of a vehicle on the Car-O-Liner bench system."
+    },
+    {
+      "id": 13,
+      "src": "/images/gallery/facility/aluminum-room-01.jpg",
+      "category": "facility",
+      "title": "Aluminum Repair Bay",
+      "description": "Dedicated aluminum repair facility with Porsche Collision Center certification."
+    },
+    {
+      "id": 14,
+      "src": "/images/gallery/facility/aluminum-room-02.jpg",
+      "category": "facility",
+      "title": "Aluminum Tools & Equipment",
+      "description": "Specialized tools and equipment for aluminum body repair."
+    },
+    {
+      "id": 15,
+      "src": "/images/gallery/facility/bench-01.jpg",
+      "category": "facility",
+      "title": "Car-O-Liner Bench — Yellow Porsche",
+      "description": "Yellow Porsche GT4 on the Car-O-Liner bench for frame straightening."
+    },
+    {
+      "id": 18,
+      "src": "/images/gallery/facility/bench-04.jpg",
+      "category": "facility",
+      "title": "Car-O-Liner Bench — Blue Porsche",
+      "description": "Blue Porsche undergoing structural repair on the Car-O-Liner system."
+    },
+    {
+      "id": 19,
+      "src": "/images/gallery/facility/celette-03.jpg",
+      "category": "facility",
+      "title": "Celette Bench — Porsche Macan",
+      "description": "Porsche Macan on the Celette bench for precision frame work."
+    },
+    {
+      "id": 20,
+      "src": "/images/gallery/facility/measurement-equip.jpg",
+      "category": "facility",
+      "title": "Car-O-Liner — Measuring System",
+      "description": "Car-O-Liner measuring system for precision frame alignment."
+    },
+    {
+      "id": 21,
       "src": "/images/gallery/award-winners/930-turbo-01.jpg",
       "category": "award-winners",
       "title": "930 Turbo Restoration",
       "description": "Complete rotisserie restoration of a 1986 930 Turbo. This award-winning project took over 2,000 hours to complete."
     },
     {
-      "id": 2,
+      "id": 22,
       "src": "/images/gallery/award-winners/930-turbo-02.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Engine Bay",
       "description": "Fully detailed engine bay with restored components and correct finishes."
     },
     {
-      "id": 3,
+      "id": 23,
       "src": "/images/gallery/award-winners/930-turbo-03.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Interior",
       "description": "Period-correct interior restoration with original materials."
     },
     {
-      "id": 4,
+      "id": 24,
       "src": "/images/gallery/award-winners/930-turbo-04.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Details",
       "description": "Attention to detail on every component."
     },
     {
-      "id": 5,
+      "id": 25,
       "src": "/images/gallery/award-winners/930-turbo-05.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Wheels",
       "description": "Fully restored Fuchs wheels with correct finish."
     },
     {
-      "id": 6,
+      "id": 26,
       "src": "/images/gallery/award-winners/930-turbo-06.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Paint",
       "description": "Flawless Guards Red paint finish."
     },
     {
-      "id": 7,
+      "id": 27,
       "src": "/images/gallery/award-winners/930-turbo-07.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Underside",
       "description": "Complete undercarriage restoration and coating."
     },
     {
-      "id": 8,
+      "id": 28,
       "src": "/images/gallery/award-winners/930-turbo-08.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Front",
       "description": "Iconic whale tail silhouette."
     },
     {
-      "id": 9,
+      "id": 29,
       "src": "/images/gallery/award-winners/930-turbo-09.jpg",
       "category": "award-winners",
       "title": "930 Turbo - Completed",
       "description": "The finished masterpiece ready for concours judging."
     },
     {
-      "id": 10,
+      "id": 30,
       "src": "/images/gallery/classic-restorations/356-01.jpg",
       "category": "classic-restorations",
       "title": "356 Speedster Restoration",
       "description": "Ground-up restoration of a 1958 356A Speedster."
     },
     {
-      "id": 11,
+      "id": 31,
       "src": "/images/gallery/classic-restorations/356-02.jpg",
       "category": "classic-restorations",
       "title": "356 - Body Work",
       "description": "Panel fitment and gap alignment."
     },
     {
-      "id": 12,
+      "id": 32,
       "src": "/images/gallery/classic-restorations/356-03.jpg",
       "category": "classic-restorations",
       "title": "356 - Paint Prep",
       "description": "Preparing the body for paint application."
     },
     {
-      "id": 13,
+      "id": 33,
       "src": "/images/gallery/classic-restorations/356-04.jpg",
       "category": "classic-restorations",
       "title": "356 - Interior",
       "description": "Restored leather interior with correct stitching."
     },
     {
-      "id": 14,
+      "id": 34,
       "src": "/images/gallery/classic-restorations/356-05.jpg",
       "category": "classic-restorations",
       "title": "356 - Gauges",
       "description": "Restored VDO instruments."
     },
     {
-      "id": 15,
+      "id": 35,
       "src": "/images/gallery/classic-restorations/356-06.jpg",
       "category": "classic-restorations",
       "title": "356 - Engine",
       "description": "Rebuilt flat-four engine."
     },
     {
-      "id": 16,
+      "id": 36,
       "src": "/images/gallery/classic-restorations/356-07.jpg",
       "category": "classic-restorations",
       "title": "356 - Chrome",
       "description": "Re-chromed bumpers and trim."
     },
     {
-      "id": 17,
+      "id": 37,
       "src": "/images/gallery/classic-restorations/356-08.jpg",
       "category": "classic-restorations",
       "title": "356 - Completed",
       "description": "The finished Speedster in Silver Metallic."
     },
     {
-      "id": 18,
+      "id": 38,
       "src": "/images/gallery/classic-restorations/356-09.jpg",
       "category": "classic-restorations",
       "title": "356 - Final Details",
       "description": "Every detail restored to perfection."
     },
     {
-      "id": 19,
+      "id": 39,
       "src": "/images/gallery/before-after/before.jpg",
       "category": "before-after",
       "title": "Before Repair",
       "description": "Collision damage before our expert restoration."
     },
     {
-      "id": 20,
+      "id": 40,
       "src": "/images/gallery/before-after/after.jpg",
       "category": "before-after",
       "title": "After Repair",
       "description": "Restored to factory-perfect condition."
     },
     {
-      "id": 21,
-      "src": "/images/gallery/facility/aluminum-room-01.jpg",
-      "category": "facility",
-      "title": "Aluminum Repair Bay",
-      "description": "Dedicated aluminum repair facility."
-    },
-    {
-      "id": 22,
-      "src": "/images/gallery/facility/aluminum-room-02.jpg",
-      "category": "facility",
-      "title": "Aluminum Tools",
-      "description": "Specialized aluminum repair equipment."
-    },
-    {
-      "id": 23,
-      "src": "/images/gallery/facility/bench-01.jpg",
-      "category": "facility",
-      "title": "Celette Bench System",
-      "description": "Precision frame straightening equipment."
-    },
-    {
-      "id": 24,
-      "src": "/images/gallery/facility/bench-02.jpg",
-      "category": "facility",
-      "title": "Frame Measurement",
-      "description": "Computerized measuring for perfect alignment."
-    },
-    {
-      "id": 25,
-      "src": "/images/gallery/facility/bench-03.jpg",
-      "category": "facility",
-      "title": "Repair in Progress",
-      "description": "Vehicle on the Celette bench system."
-    },
-    {
-      "id": 26,
-      "src": "/images/gallery/facility/bench-04.jpg",
-      "category": "facility",
-      "title": "Structural Repair",
-      "description": "Precision structural repairs."
-    },
-    {
-      "id": 27,
-      "src": "/images/gallery/facility/celette-01.jpg",
-      "category": "facility",
-      "title": "Celette System",
-      "description": "State-of-the-art repair equipment."
-    },
-    {
-      "id": 28,
-      "src": "/images/gallery/facility/celette-02.jpg",
-      "category": "facility",
-      "title": "Frame Work",
-      "description": "Frame restoration in progress."
-    },
-    {
-      "id": 29,
-      "src": "/images/gallery/facility/celette-03.jpg",
-      "category": "facility",
-      "title": "Precision Tools",
-      "description": "Factory-specification tooling."
-    },
-    {
-      "id": 30,
-      "src": "/images/gallery/facility/measurement-equip.jpg",
-      "category": "facility",
-      "title": "Measurement Equipment",
-      "description": "3D measuring systems for accuracy."
-    },
-    {
-      "id": 31,
+      "id": 41,
       "src": "/images/gallery/paint-work/mixing-room-01.jpg",
       "category": "paint-work",
       "title": "Paint Mixing Room",
       "description": "Computerized color matching facility."
     },
     {
-      "id": 32,
+      "id": 42,
       "src": "/images/gallery/paint-work/mixing-room-02.jpg",
       "category": "paint-work",
       "title": "Color Formulation",
       "description": "Custom color mixing for perfect matches."
     },
     {
-      "id": 33,
+      "id": 43,
       "src": "/images/gallery/paint-work/mixing-room-03.jpg",
       "category": "paint-work",
       "title": "Paint Systems",
       "description": "Porsche-approved paint products."
     },
     {
-      "id": 34,
+      "id": 44,
       "src": "/images/gallery/paint-work/paint-booth.jpg",
       "category": "paint-work",
       "title": "Paint Booth",

@@ -22,7 +22,7 @@
       "Computerized color spectrophotometer matching",
       "Porsche-approved paint systems",
       "Downdraft spray booth environment",
-      "Clear coat and ceramic coating options",
+      "Clear coat options",
       "Complete detail finishing"
     ],
     "icon": "paint"
@@ -44,11 +44,12 @@
   {
     "id": "frame-straightening",
     "title": "Frame Straightening",
-    "shortDesc": "Precision frame and unibody repair using Celette measuring systems.",
-    "description": "Utilizing Celette bench systems with manufacturer specifications, we restore structural integrity to within factory tolerances. Our computerized measuring ensures your vehicle's geometry is perfectly aligned for safe driving dynamics.",
+    "shortDesc": "Precision frame and unibody repair using Celette and Car-O-Liner measuring systems.",
+    "description": "Utilizing Celette and Car-O-Liner bench systems with manufacturer specifications, we restore structural integrity to within factory tolerances. Our computerized measuring ensures your vehicle's geometry is perfectly aligned for safe driving dynamics.",
     "features": [
-      "Celette dedicated bench systems",
+      "Car-O-Liner Bench",
       "3D computerized measuring",
+      "Celette dedicated bench systems",
       "Porsche-specific fixtures",
       "Factory specification restoration",
       "Pre and post-repair documentation"
@@ -64,8 +65,7 @@
       "OEM glass installation",
       "ADAS camera calibration",
       "Proper urethane application",
-      "Water leak testing",
-      "Mobile service available"
+      "Water leak testing"
     ],
     "icon": "glass"
   },
@@ -73,10 +73,9 @@
     "id": "detailing",
     "title": "Detailing & Protection",
     "shortDesc": "Premium detailing and paint protection services.",
-    "description": "Complete your repair with our professional detailing services. From paint correction to ceramic coating application, we offer comprehensive protection and finishing services to keep your Porsche looking showroom-new.",
+    "description": "Complete your repair with our professional detailing services. From paint correction to paint protection, we offer comprehensive finishing services to keep your Porsche looking showroom-new.",
     "features": [
       "Paint correction and polishing",
-      "Ceramic coating application",
       "Interior deep cleaning",
       "Leather conditioning",
       "Engine bay detailing"

@@ -136,6 +136,18 @@ export default function Services() {
               <div className="space-y-6">
                 {[
                   {
+                    title: 'I-Car Gold Class',
+                    desc: 'Recognized as an I-Car Gold Class collision repair facility.',
+                  },
+                  {
+                    title: 'I-Car Platinum',
+                    desc: 'Achieved I-Car Platinum level recognition for technician training.',
+                  },
+                  {
+                    title: 'ASE Certified',
+                    desc: 'Our technicians hold ASE certifications for automotive repair excellence.',
+                  },
+                  {
                     title: 'Factory Training',
                     desc: 'Our technicians complete ongoing Porsche-specific training programs.',
                   },
@@ -181,8 +193,8 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="/images/gallery/facility/celette-01.jpg"
-                  alt="Porsche Certified Facility"
+                  src="/images/gallery/facility/bench-01.jpg"
+                  alt="Yellow Porsche on Car-O-Liner Bench"
                   className="w-full h-full object-cover"
                 />
               </div>

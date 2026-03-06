@@ -75,11 +75,11 @@ export default function Navbar() {
             className="group relative z-10 flex-shrink-0"
           >
             <div className="flex flex-col">
-              <span className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight sm:tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
-                Stuttgart
+              <span className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight sm:tracking-wide text-brand-white group-hover:text-brand-gold transition-colors duration-300">
+                Stuttgart International
               </span>
-              <span className="font-body text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.35em] uppercase text-brand-silver -mt-1">
-                International
+              <span className="font-body text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.35em] uppercase text-brand-silver mt-0.5 pl-1">
+                Auto Body Collision
               </span>
             </div>
           </Link>

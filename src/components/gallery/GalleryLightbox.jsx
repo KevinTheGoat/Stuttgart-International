@@ -72,7 +72,7 @@ export default function GalleryLightbox({ image, onClose, onPrev, onNext, hasNex
         </button>
 
         {/* Image Container */}
-        <div className="relative bg-brand-charcoal overflow-hidden">
+        <div className="relative bg-brand-black overflow-hidden">
           <img
             src={image.src}
             alt={image.title}

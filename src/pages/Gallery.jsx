@@ -7,7 +7,7 @@ import galleryData from '../data/gallery.json'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Gallery() {
-  const [activeCategory, setActiveCategory] = useState('all')
+  const [activeCategory, setActiveCategory] = useState('facility')
   const [selectedImage, setSelectedImage] = useState(null)
   const heroRef = useRef(null)
   const galleryRef = useRef(null)
@@ -152,7 +152,7 @@ export default function Gallery() {
               <button
                 key={image.id}
                 onClick={() => handleImageClick(image)}
-                className={`group relative overflow-hidden aspect-square ${
+                className={`group relative overflow-hidden aspect-square bg-brand-black border-0 p-0 ${
                   index === 0 && activeCategory === 'all'
                     ? 'md:col-span-2 md:row-span-2'
                     : ''
@@ -161,7 +161,7 @@ export default function Gallery() {
                 <img
                   src={image.src}
                   alt={image.title}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="absolute inset-0 w-full h-full object-cover scale-[1.01] transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
 
