@@ -1,7 +1,6 @@
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import ContactForm from '../components/contact/ContactForm'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -96,9 +95,9 @@ export default function Contact() {
       {/* Contact Content */}
       <section ref={contentRef} className="section-padding bg-brand-charcoal">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             {/* Contact Info */}
-            <div className="contact-info lg:col-span-2">
+            <div className="contact-info">
               <h2 className="font-display text-3xl text-brand-white mb-8">
                 Visit Our Facility
               </h2>
@@ -294,33 +293,21 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Map */}
-              <div className="mt-10">
-                <div className="aspect-[4/3] bg-brand-black/50 border border-brand-steel/20 overflow-hidden">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.5!2d-80.158321!3d26.1905522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d903c4f44aacab%3A0x735e67dace5a29d7!2sStuttgart%20International%20Auto!5e0!3m2!1sen!2sus!4v1705000000000"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0, filter: 'grayscale(100%) invert(92%) contrast(83%)' }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Stuttgart International Location"
-                  />
-                </div>
               </div>
-            </div>
 
-            {/* Contact Form */}
-            <div className="contact-form-wrapper lg:col-span-3">
-              <div className="p-8 lg:p-10 bg-brand-black/50 border border-brand-steel/10">
-                <h2 className="font-display text-3xl text-brand-white mb-2">
-                  Request an Estimate
-                </h2>
-                <p className="font-body text-brand-silver/60 mb-8">
-                  Fill out the form below and we'll get back to you within 24 hours.
-                </p>
-                <ContactForm />
+            {/* Map */}
+            <div className="contact-form-wrapper">
+              <div className="w-full h-[400px] lg:h-[600px] bg-brand-black/50 border border-brand-steel/20 overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.5!2d-80.158321!3d26.1905522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d903c4f44aacab%3A0x735e67dace5a29d7!2sStuttgart%20International%20Auto!5e0!3m2!1sen!2sus!4v1705000000000"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, filter: 'grayscale(100%) invert(92%) contrast(83%)' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Stuttgart International Location"
+                />
               </div>
             </div>
           </div>
