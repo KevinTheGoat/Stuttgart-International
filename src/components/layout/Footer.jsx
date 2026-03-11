@@ -174,17 +174,21 @@ export default function Footer() {
           <p className="font-body text-[10px] text-brand-silver/40 text-center">
             Website designed & developed by{' '}
             <a
-              href="mailto:kevinmoreau@kevco.co"
+              href="https://kevco.co"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-brand-gold/60 hover:text-brand-gold transition-colors duration-300"
             >
-              Kevin Moreau
+              KevCo
             </a>
             {' '}— Want a site like this?{' '}
             <a
-              href="mailto:kevinmoreau@kevco.co"
+              href="https://kevco.co/contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-brand-gold/60 hover:text-brand-gold transition-colors duration-300"
             >
-              kevinmoreau@kevco.co
+              kevco.co
             </a>
           </p>
         </div>
